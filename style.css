@@ -1,0 +1,41 @@
+body{
+    background-color: rgb(141, 141, 141);
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 200px 300px 200px;
+    grid-template-rows: 150px 100px 150px;
+    grid-gap: 20px;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid-box{
+
+    border: solid 2px black;
+}
+
+.item-1{
+    background-color: brown;
+    grid-column: 1/4;
+}
+
+.item-2{
+    background-color: lightyellow;
+    grid-row: 2/4;
+}
+
+.item-3{
+    background-color: lightcoral;
+}
+
+.item-4{
+    background-color: lightseagreen;
+    grid-row: span 2;
+}
+
+.item-5{
+    background-color: lightskyblue;
+}
